@@ -1,0 +1,9 @@
+# Ignore all files except specified ones
+*
+
+# Include specified files
+!.gitignore
+!microlog.h
+!microlog_test.c
+!README.md
+!LICENSE.txt
