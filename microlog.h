@@ -46,7 +46,7 @@
 #define DBG(msg, ...)
 #else
 #define DBG(msg, ...)\
-do { \
+do {\
     PRINT("DBG: %s:%d | " msg, __FILE__, __LINE__, ## __VA_ARGS__);\
     PRINT("\r\n");\
 } while (0)
@@ -56,7 +56,7 @@ do { \
 #define INF(msg, ...)
 #else
 #define INF(msg, ...)\
-do { \
+do {\
     PRINT("INF: %s:%d | " msg, __FILE__, __LINE__, ## __VA_ARGS__);\
     PRINT("\r\n");\
 } while (0)
@@ -66,7 +66,7 @@ do { \
 #define WRN(msg, ...)
 #else
 #define WRN(msg, ...)\
-do { \
+do {\
     PRINT("WRN: %s:%d | " msg, __FILE__, __LINE__, ## __VA_ARGS__);\
     PRINT("\r\n");\
 } while (0)
@@ -76,7 +76,7 @@ do { \
 #define ERR(msg, ...)
 #else
 #define ERR(msg, ...)\
-do { \
+do {\
     PRINT("ERR: %s:%d | " msg, __FILE__, __LINE__, ## __VA_ARGS__);\
     PRINT("\r\n");\
 } while (0)
