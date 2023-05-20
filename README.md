@@ -1,6 +1,6 @@
-# MicroLog - lightweight logging system for small embedded systems
+# MicroLog - a lightweight logging solution for small embedded systems
 
-MicroLog is a simple and lightweight logging system for small embedded systems. It provides a convenient way to add logging capabilities to your embedded projects without sacrificing performance or consuming excessive resources. This code can serve as a starting point for defining your own log macros or customizing it to suit your specific needs. You can define your own log levels, change the logging output format, or redirect logs to different destinations.
+MicroLog is a simple and lightweight logging solution for small embedded systems. It provides a convenient way to add logging capabilities to your embedded projects without sacrificing performance or consuming excessive resources. This code can serve as a starting point for defining your own log macros or customizing it to suit your specific needs. You can define your own log levels, change the logging output format, or redirect logs to different destinations.
 
 ## Usage
 
