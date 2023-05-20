@@ -55,6 +55,12 @@ int main() {
     return 0;
 }
 ```
+Output:
+```
+INF: microlog_test.c:7 | Information: Hello, MicroLog!
+WRN: microlog_test.c:8 | Warning: Something unexpected happened!
+ERR: microlog_test.c:9 | Error: Oops, an error occurred!
+```
 ## License
 
 MicroLog is released under the MIT License.
